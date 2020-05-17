@@ -1,11 +1,19 @@
 {
-  "private": true,
+  "name": "jsdoc-type-d-ts-node-pkg",
+  "description": "Example repo for a Node.js module with TypeScript typings (types.d.ts) generated from JSDoc annotations",
+  "main": "src/main.js",
+  "types": "./types.d.ts",
   "scripts": {
-    "lint": "xo .",
-    "format": "xo . --fix"
+    "test": "ava",
+    "build": "jsdoc -t node_modules/tsd-jsdoc/dist -r src -d .",
+    "lint": "xo src tests",
+    "format": "xo src tests --fix"
   },
   "devDependencies": {
-    "xo": "latest"
+    "ava": "^3.8.2",
+    "jsdoc": "^3.6.4",
+    "tsd-jsdoc": "^2.5.0",
+    "xo": "^0.30.0"
   },
   "xo": {
     "prettier": true,
