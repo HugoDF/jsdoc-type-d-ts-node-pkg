@@ -5150,10 +5150,10 @@ xmlcreate@^2.0.3:
   resolved "https://registry.yarnpkg.com/xmlcreate/-/xmlcreate-2.0.3.tgz#df9ecd518fd3890ab3548e1b811d040614993497"
   integrity sha512-HgS+X6zAztGa9zIK3Y3LXuJes33Lz9x+YyTxgrkIdabu2vqcGOWwdfCpf1hWLRrd553wd4QCDf6BBO6FfdsRiQ==
 
-xo@^0.38.1:
-  version "0.38.1"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-0.38.1.tgz#ac149f393904132daa977238a4ce6d7a63aefb1d"
-  integrity sha512-mvceuXAa2+jbYMgQ3tjbYB1NTuGSOvk3S2j7pHs/35AZqMDE5volXX0q5gSvsexw+5X/6OfI0T/VO/hM92lPSw==
+xo@^0.38.2:
+  version "0.38.2"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-0.38.2.tgz#a9e44f85e0655dad64bf08d177c096dd35c0008b"
+  integrity sha512-bGDGXgyPQyiVYIiqrkbFm4S1IIwlKDrNxgWnz9xWrdT4jdbfDU9fHkW6Mwab7jGms7ymoul+aRZVa3uMhcQlTw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.15.1"
     "@typescript-eslint/parser" "^4.15.1"
