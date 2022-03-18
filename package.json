@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "ava": "^4.1.0",
-    "jsdoc": "^3.6.7",
+    "jsdoc": "^3.6.10",
     "tsd-jsdoc": "^2.5.0",
     "xo": "^0.39.1"
   },
